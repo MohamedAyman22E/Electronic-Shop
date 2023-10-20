@@ -268,7 +268,6 @@ form {
     width: 100%;
   }
 }
-
 @media (max-width: 576px) {
   .home-con,
   .gadget-con {
@@ -276,5 +275,13 @@ form {
   }
   .home-info {
     order: 2;
+  }
+  .outher_prodect .box {
+    flex-direction: column;
+  }
+}
+@media (max-width: 486px) {
+  .navBig {
+    margin-top: 30px;
   }
 }
